@@ -1,0 +1,86 @@
+.home, .manage {
+    width: 1200px;
+    margin: 50px auto;
+    box-shadow: 0 0 10px #999;
+    border-radius: 10px;
+    padding: 30px 60px;
+}
+
+.manage {
+    padding: 50px;
+}
+
+.home .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.home .header::before {
+    content: "";
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to right, #3494e6 0%, #ec6ead 100%);
+}
+
+.home .header h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(45deg, #3494e6, #ec6ead 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.v-select {
+    max-width: 200px !important;
+}
+
+.content label {
+    margin-bottom: 0 !important;
+    color: #2c3e50 !important;
+}
+
+.content table {
+    width: 100%;
+}
+
+.content table button {
+    margin: 10px 0 !important;
+    margin-right: 20px !important;
+    width: 200px !important;
+}
+
+.content table td:first-child {
+    width: 35%;
+    font-weight: 600;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    margin: 0 !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.password .v-input__slot::after, .password .v-input__slot::before {
+    display: none !important;
+}
+
+.password.v-input {
+    max-width: 250px !important;
+}

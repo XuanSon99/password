@@ -12,6 +12,7 @@
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "core-js": "^3.6.5",
+    "generate-password": "^1.6.0",
     "vue": "^2.6.11",
     "vue-i18n": "^8.24.3",
     "vue-router": "^3.2.0",

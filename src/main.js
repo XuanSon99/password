@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Toast from "vue-toastification";
 import "vue-toastification/dist/index.css";
 import '@mdi/font/css/materialdesignicons.css'
+import './assets/style.css'
 
 Vue.use(Toast, {
   transition: "Vue-Toastification__bounce",
@@ -25,7 +26,7 @@ Vue.prototype.$urlAPI = 'http://103.9.159.241:5000/api/'
 
 Vue.prototype.$config = {
   headers: {
-    token: localStorage.getItem('token')
+    "Authorization": "Bearer " + localStorage.getItem("token"),
   }
 }
 
